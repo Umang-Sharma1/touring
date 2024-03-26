@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backface-visibility"
+        ]
+      }
+    ],
+    "css-prefix-order": "off",
+    "button-type": "off",
+    "axe/forms": "off",
+    "highest-available-document-mode": "off"
+  }
+}
